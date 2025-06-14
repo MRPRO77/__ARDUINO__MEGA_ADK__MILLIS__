@@ -12,11 +12,11 @@
                 
 // ======================================================================================================
 // --- Protótipo das Funções ---
+void config_mcu ();
+void Funcionamento_Sistema();                //Função para o supervisionamento do funcionamento do sistema
+void readKeyboard();                  //Função para leitura do teclado
+void store(char value);               //Função para armazenar o número digitado no teclado matricial
+void numero();                        //Função para imprimir o número digitado na tela do LCD  
 
-                                      void config_mcu ();
-                           void Funcionamento_Sistema ();     
-                
- 
- 
 
 #endif
